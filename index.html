@@ -1,0 +1,1741 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Densmi Dental</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link href="https://fonts.cdnfonts.com/css/cabinet-grotesk" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg " id="navbar" >
+    <div class="container-custom main-container container">
+        <!-- Left Section: Logo and Navigation -->
+        <div class="navbar-left col-lg-7 justify-content-between d-flex">
+        <a class="navbar-brand mr-5" href="#">
+            <img class="logo" src="assets/densmi logo.webp" alt="Logo">
+        </a>
+        <button class="navbar-toggler toggle-btn" onclick="toggleSidebar()" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg></i>
+            </span>
+        </button>
+
+        <div id="mySidebar" class="sidebar position-fixed">
+            <div class="sidebar-overlay" onclick="closeSidebar()"></div>
+            <div class="sidebar-wrapper">    
+              <div class="close-btn d-flex align-items-center" onclick="closeSidebar()"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.1967 1.86383C15.4896 1.57093 15.4896 1.09606 15.1967 0.803166C14.9038 0.510273 14.4289 0.510273 14.136 0.803166L7.99967 6.9395L1.86334 0.803166C1.57044 0.510273 1.09557 0.510273 0.802678 0.803166C0.509785 1.09606 0.509785 1.57093 0.802678 1.86383L6.93901 8.00016L0.802678 14.1365C0.509785 14.4294 0.509785 14.9043 0.802678 15.1972C1.09557 15.4901 1.57044 15.4901 1.86334 15.1972L7.99967 9.06082L14.136 15.1972C14.4289 15.4901 14.9038 15.4901 15.1967 15.1972C15.4896 14.9043 15.4896 14.4294 15.1967 14.1365L9.06033 8.00016L15.1967 1.86383Z"></path></svg></i></div>
+                <div class="responsive-link-wrapper">
+                    <div class="accordionResponsive" id="accordionExampleResponsive">
+                        <div class="accordion-item pb-3">
+                          <h2 class="accordion-header" id="headingResponsiveOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResponsiveOne" aria-expanded="true" aria-controls="collapseResponsiveOne">
+                              Home <i class="fa fa-chevron-right"></i>
+                            </button>
+                          </h2>
+                          <div id="collapseResponsiveOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExampleResponsive">
+                            <div class="accordion-body pl-3">
+                                <ul class="p-0  m-0">
+                                    <li><a href="#"><span>Home 1</span></a></li>
+                                    <li><a href="#"><span>Home 2</span></a></li>
+                                 </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item pb-3">
+                            <h2 class="accordion-header" id="headingResponsiveTwo">
+                              <button class="accordion-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResponsiveTwo" aria-expanded="true" aria-controls="collapseResponsiveTwo">
+                                Pages <i class="fa fa-chevron-right"></i>
+                              </button>
+                            </h2>
+                            <div id="collapseResponsiveTwo" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExampleResponsive">
+                                <div class="accordion-body pl-3">
+                                    <ul class="p-0  m-0">
+                                        <li><a href="#"><span>About</span></a></li>
+                                <li><a href="#"><span>Team</span></a></li>
+                                <li><a href="#"><span>Dentist’s Profile</span></a></li>
+                                <li><a href="#"><span>Services</span></a></li>
+                                <li><a href="#"><span>X-Ray & Diagnostics</span></a></li>
+                                <li><a href="#"><span>Braces Installation</span></a></li>
+                                <li><a href="#"><span>Teeth Whitening</span></a></li>
+                                <li><a href="#"><span>Veneers Installation</span></a></li>
+                                <li><a href="#"><span>Dental Surgery</span></a></li>
+                                <li><a href="#"><span>Portfolio</span></a></li>
+                                <li><a href="#"><span>Page 404</span></a></li>
+                                <li><a href="#"><span>Coming Soon</span></a></li>
+                                <li><a href="#"><span>Home 1</span></a></li>
+                                <li><a href="#"><span>Home 2</span></a></li>
+                                     </ul>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item pb-3">
+                            <h2 class="accordion-header" id="headingResponsiveThree">
+                              <button class="accordion-button d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResponsiveThree" aria-expanded="true" aria-controls="collapseResponsiveThree">
+                                Shop <i class="fa fa-chevron-right"></i>
+                              </button>
+                            </h2>
+                            <div id="collapseResponsiveThree" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExampleResponsive">
+                                <div class="accordion-body pl-3">
+                                    <ul class="p-0  m-0">
+                                        <li><a href="#"><span>Shop – 3 Col + Sidebar</span></a></li>
+                                        <li><a href="#"><span>Shop – 4 Col + Banner</span></a></li>
+                                     </ul>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item pb-3">
+                            <h2 class="accordion-header" id="headingResponsiveFour">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResponsiveFour" aria-expanded="true" aria-controls="collapseResponsiveFour">
+                                Blogs <i class="fa fa-chevron-right"></i>
+                              </button>
+                            </h2>
+                            <div id="collapseResponsiveFour" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExampleResponsive">        
+                                <div class="accordion-body pl-3">
+                                    <ul class="p-0  m-0">
+                                        <li><a href="#"><span>Blog – 3 Col</span></a></li>
+                                        <li><a href="#"><span>Blog – 2 Col + Sidebar</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item pb-3">
+                            <h2 class="accordion-header" id="headingResponsiveFive">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResponsiveFive" aria-expanded="true" aria-controls="collapseResponsiveFive">
+                               <a href="#">Contact <i class="fa fa-chevron-right"></i></a>
+                              </button>
+                            </h2>
+                            <div id="collapseResponsiveFive" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExampleResponsive">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+        <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item main-menu active">
+                <a class="nav-link main-link" href="#"><span>Home</span> <i class="fa fa-arrow-right ml-2"></i></a>
+                <div class="dropdown">
+                    <ul class="d-flex p-0">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home 1</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home 2</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item main-menu main-menu-diff">
+                <a class="nav-link main-link" href="#"><span>Pages</span><i class="fa fa-arrow-right ml-2"></i></a>
+                <div class="dropdown-large">
+                    <ul class="d-flex">
+                        <div class="lg-dropdownwrapper">
+                            <div class="dropdown-content container-custom">
+                                <div class="drop-contentwrapper row">
+                                    <div class="drop-left-content col-lg-8">
+                                        <div class="drop-head  d-flex">
+                                            <h3>Well-Crafted Homepages Holds Significance In Establishing Trust</h3>
+                                            <div class="call-to-btn">
+                                            <a class="nav-link" href="#"><span>Explore Our Website</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                        </div>
+                                        </div>
+                                       <div class="drop-blog-wrapper row">
+                                        <div class="col-lg-3">
+                                            <div class="dropdown-lg-list">
+                                                <p class="section-subtitle">Services</p>
+                                                <ul>
+                                                    <li><a href="#">X-Ray & Diagnostics</a></li> 
+                                                    <li><a href="#">Braces Installation</a></li>
+                                                    <li><a href="#">Teeth Whitening</a></li>
+                                                    <li><a href="#">Veneers Installation</a></li>
+                                                    <li><a href="#">Dental Surgery</a></li>
+                                                    <li><a href="#">Dentist’s Profile</a></li>
+                                                    <li><a href="#">Single Case</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="dropdown-lg-list">
+                                                <p class="section-subtitle">Pages</p>
+                                                <ul>
+                                                    <li><a href="#">Portfolio Cases</a></li>
+                                                    <li><a href="#">About</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                    <li><a href="#">Services</a></li>
+                                                    <li><a href="#">Team</a></li>
+                                                    <li><a href="#">Coming Soon</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="dropdown-lg-list">
+                                                <p class="section-subtitle">Shop</p>
+                                                <ul>
+                                                    <li><a href="#" >Product List 3 Col</a></li>
+                                                    <li><a href="#" >Product List 4 Col</a></li>
+                                                    <li><a href="#" >Single Product</a></li>
+                                                    <li><a href="#" >Shopping Cart</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="dropdown-lg-list">
+                                                <p class="section-subtitle">Blog</p>
+                                                <ul>
+                                                    <li><a href="#">Blog – 3 Col</a></li>
+                                                    <li><a href="#">Blog – 2 Col + Sidebar</a></li>
+                                                    <li><a href="#">Single Blog Post</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="drop-right-content col-lg-4">
+                                        <img src="assets/dropdown-lg/drop-right2.webp" width="100%" height="100%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-overlay"></div>
+                            <div class="dropdown-overlay1"></div>
+                            <div class="dropdown-overlay2"></div>
+                        </div>
+                    
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item main-menu">
+                <a class="nav-link main-link" href="#"><span>Shop</span><i class="fa fa-arrow-right ml-2"></i></a>
+                <div class="dropdown">
+                    <ul class="d-flex p-0">
+                        <li class="nav-item "><a class="nav-link" href="#">Cart</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Checkout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop - 3 Col + Sidebar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop - 4 Col + Sidebar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Single Product</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item main-menu main-menu-diff">
+                <a class="nav-link main-link" href="#"><span>Blog</span><i class="fa fa-arrow-right ml-2"></i></a>
+                <div class="dropdown-large">
+                    <ul class="d-flex">
+                        <div class="lg-dropdownwrapper">
+                            <div class="dropdown-content container-custom">
+                                <div class="drop-contentwrapper row">
+                                    <div class="drop-left-content col-lg-8">
+                                        <div class="drop-head  d-flex">
+                                            <h3>Well-Crafted Homepages Holds Significance In Establishing Trust</h3>
+                                            <div class="call-to-btn">
+                                                <a class="nav-link" href="#"><span>Explore Our Blog</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                        </div>
+                                        </div>
+                                       <div class="drop-blog-wrapper row">
+                                        <div class="col-lg-4">
+                                            <div class="drop-blog-lg-thumb">
+                                                <a href="#"><img src="assets/dropdown-lg/drop-left-img.webp" width="100%" alt=""></a>
+                                            </div>
+                                            <div class="blog-tags d-block">
+                                                <p class="blog-date">December 13, 2023 </p>
+                                                <span>-Admin</span>
+                                            </div>
+                                            <a href="#"></a><h6>Demystifying Dental Myths: Separating Fact from Fiction</h6></a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class="drop-blog-list">
+                                                <div class="drop-sm-blog d-flex justify-content-end align-items-start">
+                                                    <div class="drop-blog-sm-thumb">
+                                                        <a href="#"> <img src="assets/dropdown-lg/drop-left-sm-thumb1.webp" width="100%" height="100%" alt=""></a>
+                                                    </div>
+                                                    <div class="blog-text-btn">
+                                                        <h6>The ABCs of Oral Health: A Comprehensive Guide to Dental Care</h6>
+                                                        <div class="call-to-btn readmore-btn">
+                                                            <a class="nav-link" href="#"><span>Read More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="drop-sm-blog d-flex justify-content-end align-items-start">
+                                                    <div class="drop-blog-sm-thumb">
+                                                       <a href="#"> <img src="assets/dropdown-lg/drop-left-sm-thumb2.webp" width="100%" height="100%" alt=""></a>
+                                                    </div>
+                                                    <div class="blog-text-btn">
+                                                        <h6>Beyond the Brush: Essential Tips for a Healthy Mouth</h6>
+                                                        <div class="call-to-btn readmore-btn">
+                                                            <a class="nav-link" href="#"><span>Read More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="drop-right-content col-lg-4">
+                                        <img src="assets/dropdown-lg/drop-right-img.webp" width="100%" height="100%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-overlay"></div>
+                            <div class="dropdown-overlay1"></div>
+                            <div class="dropdown-overlay2"></div>
+                        </div>
+                    
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item main-menu">
+                <a class="nav-link main-link" href="#"><span>Contact</span></a>
+            </li>
+            </ul>
+        </div>
+        </div>
+        <!-- Right Section: Social Media Links, Call Button, Cart Icon -->
+        <div class=" navbar-collapse collapse navbar-right pr-0 col-lg-4 justify-content-between align-items-center" id="navbarNav">
+        <div class="social-media">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            </ul>
+        </div>
+        <div class="navbar-right-divider"></div>
+        <div class="order-call-btn call-to-btn">
+                <a class="nav-link" href="#"><span>Order a Call</span><i class="fa fa-arrow-right ml-2"></i></a>
+        </div>
+        <div class="cart-icon">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i>
+                <span>0</span></a>
+        </div>
+        </div>
+    </div>
+    </nav>
+    <section class="hero-section">
+        <div class="hero-section-wrapper container-with-padd">
+            <div class="row responsive-reverse">
+                <div class="col-lg-6 pr-1">
+                    <div class="hero-left-text-input-wrapper" data-aos="fade-right" data-aos-duration="500">
+                        <h2>Smile Bright: Your Premier Dental Destination</h2>
+                        <div class="search-input d-flex">
+                            <input type="text" placeholder="Search...">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                   <div class="row mt-2">
+                    <div class="col-sm-5 p-0 w-fit">
+                        <div class="left-sm-sec pr-2">
+                        </div>
+                    </div>
+                    <div class="col-sm-7 pl-4 pr-0">
+                        <div class="right-sm-sec ml-1">
+                            <ul>
+                                <li><a class="d-flex align-items-center" href="#">
+                                    <div class="checkbox">
+                                    <i class="fa fa-check "></i>
+                                </div>
+                                    <span>This Is The Heading</span></a></li>
+                                <li><a class="d-flex align-items-center" href="#">
+                                    <div class="checkbox">
+                                    <i class="fa fa-check "></i>
+                                </div>
+                                    <span>
+                                    Comfort And Convenience</span></a></li>
+                                <li><a class="d-flex align-items-center" href="#">
+                                    <div class="checkbox">
+                                    <i class="fa fa-check "></i>
+                                </div>
+                                    <span>Preventative Care</span></a></li>
+                                <li><a class="d-flex align-items-center" href="#">
+                                    <div class="checkbox">
+                                    <i class="fa fa-check "></i>
+                                </div>
+                                    <span>Advanced Dental Treatments</span></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div> 
+                   </div>
+                   <div class="hero-testimonials mt-2"  data-aos="fade-right" data-aos-duration="500" data-aos-delay="100">
+                    <p>From preventative care to restorative dentistry, our team is dedicated to providing the best possible dental care for you. A healthy smile is a happy smile – we help you achieve both!</p>
+                    <div class="viewstorywrapper mt-4 mb-4 d-flex justify-content-between align-items-center">
+                        <div class="call-to-btn readmore-btn">
+                            <a class="nav-link" href="#"><span>Discover our clinic’s Story</span><i class="fa fa-arrow-right ml-2"></i></a>
+                    </div>
+                    <div class="clients-list">
+                        <ul class="d-flex position-relative m-0">
+                            <li>
+                                <div class="hero-testi-img">
+                                    <img src="assets/hero-testi-user/user1.webp" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero-testi-img">
+                                    <img src="assets/hero-testi-user/user2.webp" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero-testi-img">
+                                    <img src="assets/hero-testi-user/user3.webp" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero-testi-img">
+                                    <img src="assets/hero-testi-user/user4.webp" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hero-testi-img">
+                                    <img src="assets/hero-testi-user/user5.webp" alt="">
+                                    <div class="hero-user-overlap">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="rating-wrapper d-flex align-items-center mt-1">
+                            <span class="mr-2">5.0</span>
+                            <div class="star-list">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-lg-6 pl-1" data-aos="fade-left" data-aos-duration="500">
+                    <div class="hero-slider-section">
+                        <div class="call-to-btn">
+                            <a class="nav-link" href="#"><span>watch our best dental cases</span><i class="fa fa-arrow-right ml-2"></i></a>
+                    </div>
+                    <div class="hero-slider">
+                        <div class="slider1">
+                            <img src="assets/hero-slider1.webp" width="100%" height="100%" alt="">
+                            </div>
+                            <div class="slider1">
+                                <img src="assets/hero-slider2.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="slider1">
+                                    <img src="assets/hero-slider3.webp" width="100%" height="100%" alt="">
+                                    </div>
+                    </div>
+                 
+                        <div class="next-prev-btn d-flex">
+                            <div class="prev-btn mr-2">
+                                <button><i class="fa fa-arrow-left"></i></button>
+                            </div>
+                            <div class="next-btn">
+                                <button><i class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+              
+               </div>
+        </div>
+     
+       <div class="animate-text-wrapper d-flex align-items-center mt-2">
+        <div class="marquee">
+            <div class="moving-text">
+                <i class="fa fa-thumbs-up"></i>
+                Revitalize your grin and boost your self-assurance through our specialized dental expertise.
+            </div>
+            <div class="moving-text">
+                <i class="fa fa-teeth"></i>
+                Transform your smile and your confidence with our expert dental care					
+            </div>
+            <div class="moving-text">
+                <i class="fa fa-teeth"></i>
+                Experience a transformation that goes beyond your teeth, creating a confident and radiant version of yourself.					
+            </div>
+        </div>
+       </div>
+    </section>
+    <section class="why-choose">
+        <div class="container-with-padd">
+            <div class="container container-custom-sm p-0">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="why-banner-wrapper">
+                            <div class="why-img">
+                                <img src="assets/why-choose-img.webp" width="100%" alt="">
+                            </div>
+                            <div class="expert-benifits">
+                                <ul class="m-0 d-flex">
+                                    <li><a class="d-flex align-items-center" href="#">
+                                        <div class="checkbox">
+                                        <i class="fa fa-check "></i>
+                                        </div>
+                                        <span>Expert Dental Care</span></a></li>
+                                    <li><a class="d-flex align-items-center" href="#">
+                                        <div class="checkbox">
+                                        <i class="fa fa-check "></i>
+                                    </div>
+                                        <span>
+                                        Comfort And Convenience</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" >
+                       <div class="choose-text-wrapper d-flex" >
+                        <div class="choose-head">
+                            <span class="section-subtitle">why choose densmi</span>
+                            <h2>Your Dental Dream Team</h2>
+                        </div>
+                        <p class="section-description">From preventative care to restorative dentistry, our team is dedicated to providing the best possible dental care for you. A healthy smile is a happy smile – we help you achieve both!</p>
+                        <div class="benefits-list">
+                            <ul>
+                                <li>
+                                    <a href="#" class="active align-items-center"><i class="fa fa-arrow-down"></i><span>Experienced Dentists</span></a>
+                                </li>
+                                <div class="divider"></div>
+                                <li>
+                                    <a href="#" class="align-items-center"><i class="fa fa-arrow-down"></i><span>Advanced Dental Treatments</span></a>
+                                </li>
+                                <div class="divider"></div>
+                                <li>
+                                    <a href="#" class="align-items-center"><i class="fa fa-arrow-down"></i><span>Store With A Large Assortment</span></a>
+                                </li>
+                                <div class="divider"></div>
+                                <li>
+                                    <a href="#" class="align-items-center"><i class="fa fa-arrow-down"></i><span>Mind-Blowing Cases</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </section>
+    <section class="service-category">
+        <div class="category-shape-path">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="shape-fill" d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
+            </svg>
+        </div>
+        <div class="container-with-padd">
+            <div class=" container container-custom-sm">
+                <div class="row align-items-center service-row-res">
+                    <div class="col-lg-8 p-0">
+                        <div class="serv-cat-head">
+                            <span class="section-subtitle">SERVICE CATEGORIES</span>
+                            <h2>Comprehensive Dental Services
+                                For The Whole Family</h2>
+                                <p class="section-description pt-3">From preventative care to restorative dentistry, our team is dedicated to providing the best possible dental care for you. Let us help you with our comprehensive dental services!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 p-0">
+                        <div class="call-to-btn">
+                        <a class="nav-link" href="#"><span>discover our services</span><i class="fa fa-arrow-right ml-2"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="explore-service-wrapper">
+                    <h6>Explore Our Service Categories</h6>
+                    <div class="row">
+                        <div class="col-lg-6 pl-0">
+                            <div class="serviceswrapper  preventive d-flex justify-content-end">
+                                <div class="explore-overlay-1 exploreov">
+                                </div>
+                                <div class="toothbrush-absolute">
+                                    <img src="assets/service-category/p-absolute1.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="service-title d-flex align-items-start" >
+                                    <h4>Preventative Dentistry</h4>
+                                    <div class="call-to-btn readmore-btn">
+                                        <a class="nav-link" href="#"><span>Learn More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pr-0">
+                            <div class="serviceswrapper  preventive d-flex justify-content-end">
+                                <div class="explore-overlay-2 exploreov"></div>
+                                <div class="toothbrush-absolute">
+                                    <img src="assets/service-category/p-absolute2.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="service-title d-flex align-items-start" >
+                                    <h4>Preventative Dentistry</h4>
+                                    <div class="call-to-btn readmore-btn">
+                                    <a class="nav-link" href="#"><span>Learn More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-lg-4 pl-0">
+                            <div class="serviceswrapper  preventive d-flex justify-content-end">
+                                <div class="explore-overlay-3 exploreov"></div>
+                                <div class="toothbrush-absolute">
+                                    <img src="assets/service-category/p-absolute1.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="service-title d-flex align-items-start" >
+                                    <h4>Preventative Dentistry</h4>
+                                    <div class="call-to-btn readmore-btn">
+                                        <a class="nav-link" href="#"><span>Learn More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="serviceswrapper  preventive d-flex justify-content-end">
+                                <div class="explore-overlay-4 exploreov"></div>
+                                <div class="toothbrush-absolute">
+                                    <img src="assets/service-category/p-absolute2.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="service-title d-flex align-items-start" >
+                                    <h4>Preventative Dentistry</h4>
+                                    <div class="call-to-btn readmore-btn">
+                                    <a class="nav-link" href="#"><span>Learn More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pr-0">
+                            <div class="serviceswrapper  preventive d-flex justify-content-end">
+                                <div class="explore-overlay-5 exploreov"></div>
+                                <div class="toothbrush-absolute">
+                                    <img src="assets/service-category/p-absolute1.webp" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="service-title d-flex align-items-start" >
+                                    <h4>Preventative Dentistry</h4>
+                                    <div class="call-to-btn readmore-btn">
+                                    <a class="nav-link" href="#"><span>Learn More</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brandswrapper">
+            <div class="corporatehead d-flex justify-content-center">
+                <h5>We Cooperate With Brands & Companies</h5>
+            </div>
+            <div class="brandssliderwrapper">
+                <div class="sliderwrapper">
+                  <div class="row brandsslider">
+                    <div class="col-lg-2">
+                      <a href="#"><img src="assets/brands/densmi-03.webp" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                      <a href="#"><img src="assets/brands/densmi-04.webp" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                      <a href="#"><img src="assets/brands/densmi-05.webp" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                      <a href="#"><img src="assets/brands/densmi-06.webp" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                      <a href="#"><img src="assets/brands/densmi-07.webp" alt=""></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="#"><img src="assets/brands/densmi-03.webp" alt=""></a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="#"><img src="assets/brands/densmi-04.webp" alt=""></a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="#"><img src="assets/brands/densmi-05.webp" alt=""></a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="#"><img src="assets/brands/densmi-06.webp" alt=""></a>
+                      </div>
+                      <div class="col-lg-2">
+                        <a href="#"><img src="assets/brands/densmi-07.webp" alt=""></a>
+                      </div>
+                    
+                  </div>
+                  <div class="next-btn-wrapper">
+                    <button class="prev brand-prev"><span><i class="fa fa-arrow-left"></i></span></button>
+                    <button class="next brand-next"><i class="fa fa-arrow-right"></i></button>
+                  </div>
+                </div>
+              </div>     
+        </div>
+    </section>
+    <section class="dental-practice-main-content">
+        <div class="container-with-padd">
+            <div class="dental-main-wrapper">
+                <div class="book-appoint">
+                    <div class="row">
+                        <div class="col-lg-6 appoint-left">
+                            <div class="appointhead">
+                                <span class="section-subtitle">STEP BY STEP</span>
+                                <h2 class="m-0">Your Go-To Dental Practice For A Radiant Smile</h2>
+                            </div>
+                            <p class="section-description">
+                                From preventative care to restorative dentistry, our team is dedicated to providing the best possible dental care for you.
+                            </p>
+                            <div class="call-to-btn">
+                                <a class="nav-link" href="#"><span>Book an appointment</span><i class="fa fa-arrow-right ml-2"></i></a>
+                        </div>
+                        </div>
+                        <div class="col-lg-6 appoint-right p-0" >
+                            <div class="appoint-accordion-wrapper">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <div class="button-title d-flex align-items-center"><span class="mr-2">1</span>Initial Consultation</div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            <div class="button-title d-flex align-items-center"><span class="mr-2">2</span>X-Rays And Diagnostic Tests</div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            <div class="button-title d-flex align-items-center"><span class="mr-2">3</span>Treatment Planning</div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </button>
+                                      </h2>
+                                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                              <div class="button-title d-flex align-items-center"><span class="mr-2">4</span>Treatment Process</div>
+                                              <i class="fa fa-arrow-down"></i>
+                                          </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                              <div class="button-title d-flex align-items-center"><span class="mr-2">5</span>Follow-Up Care</div>
+                                              <i class="fa fa-arrow-down"></i>
+                                          </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoliocase">
+                    <div class="portfoliohead">
+                        <p class="section-subtitle">PORTFOLIO CASES</p>
+                        <h2>Dental Delight: Your Smile Makeover</h2>
+                    </div>
+                    <div class="portfolio-grid container-custom-sm">
+                        <div class="row">
+                            <div class="col-lg-5 left-sec">
+                                <a href="#"><div class="singleimg">
+                                    <img src="assets/portfolio grid/densmi-58.webp" width="100%" height="100%" alt="">
+                                </div></a>
+                                <div class="portfoliodetails">
+                                    <div class="call-to-btn">
+                                        <a class="nav-link" href="#"><span>Go To Portfolio </span><i class="fa fa-arrow-right ml-2"></i></a>
+                                    </div>
+                                    <div class="date-desc">
+                                        <p class="section-subtitle">december 15, 2023</p>
+                                        <a  href="#" class="entry-title">Smile Transformation: Comprehensive Aesthetic Dentistry</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 right-sec">
+                                <div class="right-sec-wrapper">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <a href="#" class="right-sec-img"><img src="assets/portfolio grid/densmi-57.webp" width="100%" height="100%" alt=""></a>
+                                             <div class="portfoliodetails">
+                                    <div class="date-desc">
+                                        <p class="section-subtitle">december 15, 2023</p>
+                                        <a  href="#" class="entry-title">Smile Transformation: Comprehensive Aesthetic Dentistry</a>
+                                    </div>
+                                </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <a href="#" class="right-sec-img"> <img src="assets/portfolio grid/densmi-59-1024x784.webp" width="100%" height="100%" alt=""></a>
+                                             <div class="portfoliodetails">
+                                    <div class="date-desc">
+                                        <p class="section-subtitle">december 15, 2023</p>
+                                        <a  href="#" class="entry-title">Smile Transformation: Comprehensive Aesthetic Dentistry</a>
+                                    </div>
+                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col-sm-5">
+                                            <a href="#" class="right-sec-img"> <img src="assets/portfolio grid/densmi-60-1024x784.webp" width="100%" height="100%" alt=""></a>
+                                             <div class="portfoliodetails">
+                                    <div class="date-desc">
+                                        <p class="section-subtitle">december 15, 2023</p>
+                                        <a  href="#" class="entry-title">Smile Transformation: Comprehensive Aesthetic Dentistry</a>
+                                    </div>
+                                </div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <a href="#" class="right-sec-img"> <img src="assets/portfolio grid/densmi-61.webp" width="100%" height="100%" alt=""></a>
+                                             <div class="portfoliodetails">
+                                    <div class="date-desc">
+                                        <p class="section-subtitle">december 15, 2023</p>
+                                        <a  href="#" class="entry-title">Smile Transformation: Comprehensive Aesthetic Dentistry</a>
+                                    </div>
+                                </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <div class="container-with-padd">
+                        <div class="container-custom-sm">
+                            <div class="testimonialheadwrapper d-flex justify-content-between align-items-end">
+                                <div class="testihead">
+                                    <p class="section-subtitle">testimonials</p>
+                                <h2>Enhancing Your Smile & Your Confidence</h2>
+                                </div>
+                                <div class="inverted"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                            <div class="testisliderwrapper mt-5">
+                                <div class="row">
+                                    <div class="col-lg-8 p-0">
+
+                                        <div class="row testi-slider d-flex justify-content-between">
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-15.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Theresa Webb</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                        
+                                                </div>
+                                                <div class="comments section-description">
+                                                    I had a dental emergency over the weekend and was able to get an appointment at this clinic on short notice.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-16.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Arlene McCoy</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                </div>
+                                                <div class="comments section-description">
+                                                   I recently had a root canal at this dental clinic, and I have to say, it was a much more pleasant experience than I expected.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-15.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Theresa Webb</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                        
+                                                </div>
+                                                <div class="comments section-description">
+                                                    I had a dental emergency over the weekend and was able to get an appointment at this clinic on short notice.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-16.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Arlene McCoy</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                </div>
+                                                <div class="comments section-description">
+                                                   I recently had a root canal at this dental clinic, and I have to say, it was a much more pleasant experience than I expected.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-15.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Theresa Webb</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                        
+                                                </div>
+                                                <div class="comments section-description">
+                                                    I had a dental emergency over the weekend and was able to get an appointment at this clinic on short notice.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-16.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Arlene McCoy</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                </div>
+                                                <div class="comments section-description">
+                                                   I recently had a root canal at this dental clinic, and I have to say, it was a much more pleasant experience than I expected.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-15.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Theresa Webb</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                        
+                                                </div>
+                                                <div class="comments section-description">
+                                                    I had a dental emergency over the weekend and was able to get an appointment at this clinic on short notice.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            <div class="col-sm-6  d-flex align-items-start justify-content-center ">
+                                                <div class="slider-content-wrapper">
+                                                    <div class="client-detail d-flex ">
+                                                        <img src="assets/testimonial/densmi-16.webp" alt="">
+                                                        <div class="author-detail">
+                                                            <div class="testimonial-author">Arlene McCoy</div>
+                                                            <div class="section-subtitle">Client</div>
+                                                        </div>
+                                                </div>
+                                                <div class="comments section-description">
+                                                   I recently had a root canal at this dental clinic, and I have to say, it was a much more pleasant experience than I expected.</div>
+                                                <div class="starrate">
+                                                    <ul class="d-flex pl-0 m-0">
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div> 
+                                            </div>
+                                            <div class="testi-next-prev d-flex pl-4 mt-3">
+                                                <div class="testi-prev"><i class="fa fa-arrow-left"></i></div>
+                                                <div class="testi-next"><i class="fa fa-arrow-right"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 pr-0 pl-4">
+                                            <div class="background-img-wrapper">
+                                                <div class="testi-bg"></div>
+                                                <div class="main-img">
+                                                    <img src="assets/testimonial-img.webp" width="100%" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                            </div>
+                            
+                                </div>
+
+                    </div>
+                </div>
+                <div class="dental-care-providers">
+                    <div class="container-custom-sm">
+                        <div class="dentist-head">
+                            <span class="section-subtitle">dentists</span>
+                            <h2>Your Trusted Dental Care Providers</h2>
+                            <p class="section-description pt-3">Depending on the nature of your dental concerns, the dentist may recommend X-rays or other diagnostic tests to help identify any underlying dental issues. These tests can help the dentist develop a customized treatment plan to address your specific dental needs.</p>
+                        </div>
+                        <div class="dentist-divider"></div>
+                        <div class="dentist-wrapper">
+                            <h5>Meet Our Best Dentists</h5>
+                            <div class="dentist-slider-wrapper mt-4">
+                               <div class="row dentist-slider">
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-08.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-09.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-10.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-11.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-08.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-09.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-10.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="dentist-detail-wrapper">
+                                        <div class="dentist-img-wrapper">
+                                            <img src="assets/dentists/densmi-08.webp" width="100%" alt="">
+                                            <div class="social-links">
+                                                <ul class="d-flex align-items-center justify-content-center m-0 p-0">
+                                                    <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="dentist-detail">
+                                        <div class="dentistname">Brooklyn Simmons</div>
+                                        <div class="section-subtitle">dentist</div>
+                                    </div>
+                                    </div>
+                                </div>
+                               </div>
+                               <div class="next-btn-wrapper">
+                                <button class="dentist-prev slick-arrow"><span><i class="fa fa-arrow-left"></i></span></button>
+                                <button class="dentist-next slick-arrow"><i class="fa fa-arrow-right"></i></button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </section>
+    <section class="FAQ-shop-section">
+        <div class="container-with-padd">
+        <div class="FAQ-section">
+                <div class="FAQ-wrapper container-custom-sm">
+                    <div class="FAQ-head">
+                        <span class="section-subtitle">FAQ</span>
+                        <h2>Find The Answer To Your Question</h2>
+                    </div>
+                    <div class="FAQ-accordion mt-5">
+                        <div class="row">
+                            <div class="col-lg-6 pl-0">
+                                <div class="accordion" id="accordionExample1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneNested" aria-expanded="true" aria-controls="collapseOneNested">
+                                                <div class="button-title d-flex align-items-center">What types of dental procedures do you offer at your clinic?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOneNested" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoNested" aria-expanded="true" aria-controls="collapseTwoNested">
+                                                <div class="button-title d-flex align-items-center">Do you accept dental insurance?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwoNested" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeNested" aria-expanded="true" aria-controls="collapseThreeNested">
+                                                <div class="button-title d-flex align-items-center">How do I schedule an appointment?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThreeNested" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourNested" aria-expanded="true" aria-controls="collapseFourNested">
+                                                <div class="button-title d-flex align-items-center">What should I do if I have a dental emergency outside of your clinic's business hours?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFourNested" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-lg-6 pr-0">
+                                <div class="accordion" id="accordionExample2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneNested2" aria-expanded="true" aria-controls="collapseOneNested2">
+                                                <div class="button-title d-flex align-items-center">How often should I visit the dentist for a routine check-up?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOneNested2" class="accordion-collapse collapse show" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button d-flex collapsed justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoNested2" aria-expanded="true" aria-controls="collapseTwoNested2">
+                                                <div class="button-title d-flex align-items-center">What should I do if I'm experiencing tooth pain?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwoNested2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeNested2" aria-expanded="true" aria-controls="collapseThreeNested2">
+                                                <div class="button-title d-flex align-items-center">What steps does your clinic take to ensure patient privacy and confidentiality?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThreeNested2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourNested2" aria-expanded="true" aria-controls="collapseFourNested2">
+                                                <div class="button-title d-flex align-items-center">How can I improve my oral hygiene at home?</div>
+                                                <div class="button-arrow"><i class="fa fa-chevron-right"></i></div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFourNested2" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <p>If you have a dental emergency outside of our clinic's business hours, please call our emergency line. We have an on-call dentist who can provide you with advice and guidance.
+                                                </div></p>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="shop-section">
+            <div class="shop-wrapper container-custom-sm">
+                <div class="shop-head d-flex justify-content-center align-items-center">
+                    <span class="section-subtitle">shop</span>
+                    <h2>Dental Technology:<br>
+                        The Future Of Dentistry At Densmi</h2>
+                </div>
+                <div class="shop-slider-wrapper pt-4">
+                    <div class="row shop-slider">
+                        <div class="col-lg-3">
+                            <div class="product-wrapper">
+                                <div class="product-thumb-wrapper">
+                                    <a href="#"><img src="assets/products/densmi-66-300x294.webp" alt=""></a>   
+                                    <div class="add-to-btn">
+                                        <a href="#">Add to cart<i class="fa fa-shopping-bag"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-title mt-3">
+                                    <span class="section-subtitle m-0 mb-2">toothbrush</span>
+                                    <div class="product-price-wrapper d-flex justify-content-between align-items-start">
+                                        <h6 class="m-0">Oral Hygiene Essentials set</h6>
+                                        <span>$250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="product-wrapper">
+                                <div class="product-thumb-wrapper">
+                                    <a href="#"><img src="assets/products/densmi-65-300x294.webp" alt=""></a>   
+                                    <div class="add-to-btn">
+                                        <a href="#">Add to cart<i class="fa fa-shopping-bag"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-title mt-3">
+                                    <span class="section-subtitle m-0 mb-2">toothbrush</span>
+                                    <div class="product-price-wrapper d-flex justify-content-between align-items-start">
+                                        <h6 class="m-0">Oral Hygiene Essentials set</h6>
+                                        <span>$250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="product-wrapper">
+                                <div class="product-thumb-wrapper">
+                                    <a href="#"><img src="assets/products/densmi-67-300x294.webp" alt=""></a>   
+                                    <div class="add-to-btn">
+                                        <a href="#">Add to cart<i class="fa fa-shopping-bag"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-title mt-3">
+                                    <span class="section-subtitle m-0 mb-2">toothbrush</span>
+                                    <div class="product-price-wrapper d-flex justify-content-between align-items-start">
+                                        <h6 class="m-0">Oral Hygiene Essentials set</h6>
+                                        <span>$250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="product-wrapper">
+                                <div class="product-thumb-wrapper">
+                                    <a href="#"><img src="assets/products/densmi-69-300x294.webp" alt=""></a>   
+                                    <div class="add-to-btn">
+                                        <a href="#">Add to cart<i class="fa fa-shopping-bag"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-title mt-3">
+                                    <span class="section-subtitle m-0 mb-2">toothbrush</span>
+                                    <div class="product-price-wrapper d-flex justify-content-between align-items-start">
+                                        <h6 class="m-0">Oral Hygiene Essentials set</h6>
+                                        <span>$250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="product-wrapper">
+                                <div class="product-thumb-wrapper">
+                                    <a href="#"><img src="assets/products/densmi-66-300x294.webp" alt=""></a>   
+                                    <div class="add-to-btn">
+                                        <a href="#">Add to cart<i class="fa fa-shopping-bag"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-title mt-3">
+                                    <span class="section-subtitle m-0 mb-2">toothbrush</span>
+                                    <div class="product-price-wrapper d-flex justify-content-between align-items-start">
+                                        <h6 class="m-0">Oral Hygiene Essentials set</h6>
+                                        <span>$250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-btn-wrapper d-flex align-items-center pl-4 mt-3">
+                        <div class="product-prev prev"><span><i class="fa fa-arrow-left"></i></span></div>
+                        <div class="product-next next"><span><i class="fa fa-arrow-right"></i></span></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="faq-shape-path">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="shape-fill" d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
+            </svg>
+        </div>
+    </section>
+    <section class="appointment">
+        <div class="appointment-wrapper  mt-5">
+            <div class="container-with-padd">
+                <div class="container-custom-sm">
+                    <div class="row">
+                        <div class="col-lg-6 pl-0">
+                            <div class="appointment-head">
+                                <span class="section-subtitle">make an appointment</span>
+                                <h2>Prompt & Compassionate Care When You Need It</h2>
+                            </div>
+                            <div class="forms-wrapper mt-5">
+                                <form action="submit">
+                                    <div class="your-name-phone row">
+                                    <div class="service-selector col-12 mb-4">
+                                        <div class="input-note">Select A Service*</div>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Preventive Dental Examination</option>
+                                            <option value="1">Option 2</option>
+                                            <option value="1">Option 3</option>
+                                          </select>
+                                    </div>
+    
+                                        <div class="your-name col-12 col-md-6 mb-4">
+                                            <label class="input-note">Your Name*</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="your-phone col-12 col-md-6 mb-4">
+                                            <label class="input-note">Your Phone*</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="appointent-date col-12 col-md-6 mb-4">
+                                            <label class="input-note">Date*</label>
+                                            <input type="date">
+                                        </div>
+                                        <div class="apppointment-time col-12 col-md-6 mb-4">
+                                            <label class="input-note">Time*</label>
+                                            <input type="time">
+                                        </div>
+                                    </div>
+    
+                                    <div class="call-to-btn">
+                                        <a class="nav-link" href="#"><span>Make An Appointment</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                    </div>
+                                    <div class="input-note note-2">*Our manager will call you back within 15 minutes</div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pr-0">
+                            <div class="appointment-banner-wrapper">
+                                <img src="assets/appointment-banner.webp" width="100%" alt="">
+                                <div class="expert-benifits">
+                                    <ul class="m-0 d-flex">
+                                        <li><a class="d-flex align-items-center" href="#">
+                                            <div class="checkbox">
+                                            <i class="fa fa-check "></i>
+                                            </div>
+                                            <span>Expert Dental Care</span></a></li>
+                                        <li><a class="d-flex align-items-center" href="#">
+                                            <div class="checkbox">
+                                            <i class="fa fa-check "></i>
+                                        </div>
+                                            <span>
+                                            Comfort And Convenience</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container-with-padd">
+            <div class="contact-for-bg">
+                <div class="contact-wrapper container-custom-sm">
+                    <div class="contact-head">
+                        <span class="section-subtitle">contact info</span>
+                        <h2>Brighten Your Smile & Your Day At Densmi</h2>
+                    </div>
+                    <div class="row map">
+                        <div class="col-lg-7 map-wrapper p-0">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5464675032304!2d-0.1220941241895724!3d51.50318971101201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2snp!4v1713182578912!5m2!1sen!2snp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="expert-benifits">
+                                <ul class="m-0 p-0 d-flex">
+                                    <li class="d-flex align-items-center">
+                                        <a href="#"><div class="checkbox">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            </div></a>
+                                            <div class="address-wrapper">
+                                                <a href="#">Address</a>
+                                                <p>6391 Elgin St. Celina, Delaware 10299</p>
+                                            </div>      
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="#"><div class="checkbox">
+                                            <i class="fas fa-envelope"></i>
+                                            </div></a>
+                                            <div class="address-wrapper">
+                                                <a href="#">Address</a>
+                                                <p>6391 Elgin St. Celina, Delaware 10299</p>
+                                            </div>      
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="#"><div class="checkbox">
+                                            <i class="fa fa-map-phone"></i>
+                                            </div></a>
+                                            <div class="address-wrapper">
+                                                <a href="#">Address</a>
+                                                <p>6391 Elgin St. Celina, Delaware 10299</p>
+                                            </div>      
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 pr-0">
+                            <div class="row working p-0">
+                                <div class="col-12 p-0">
+                                    <div class="working-hour-wrapper">
+                                        <div class="work-time-list">
+                                            <ul class="p-0">
+                                                <h3>Working Hours</h3>
+                                                <li class="d-flex align-items-center"><p>Monday</p> <span>8AM-9PM</span></li>
+                                                <div class="divider"></div>
+                                                <li class="d-flex align-items-center"><p>Monday</p> <span>8AM-9PM</span></li>
+                                                <div class="divider"></div>
+                                                <li class="d-flex align-items-center"><p>Monday</p> <span>8AM-9PM</span></li>
+                                                <div class="divider"></div>
+                                                <li class="d-flex align-items-center"><p>Monday</p> <span>8AM-9PM</span></li>
+                                                <div class="divider"></div>
+                                                <li class="d-flex align-items-center"><p>Monday</p> <span>8AM-9PM</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pl-0 pr-0 padding-for-question">
+                                   <div class="questions-wrapper d-flex">
+                                    <h5>Have More Questions?</h5>
+                                    <div class="call-to-btn">
+                                        <a class="nav-link" href="#"><span>Order A Call</span><i class="fa fa-arrow-right ml-2"></i></a>
+                                    </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter mt-2">
+        <div class="newsletter-wrapper">
+            <div class="container-with-padd">
+                <div class="newsletter-hero-wrapper  d-flex">
+                    <div class="overlay"></div>
+                <div class="container-custom-sm">
+                    <span class="section-subtitle">newsletter</span>
+                    <h2>Follow Our Newsletter To Stay Tuned</h2>
+                    <div class="enter-email pt-4">
+                        <input type="text" placeholder="Enter a E-mail">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <div class="newsletter-hero-img"><img src="assets/toothbrush newsletter.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-wrapper mt-5">
+            <div class="container-with-padd">
+                <div class="footer-bg">
+                    <div class="container-custom-sm">
+                        <div class="footer-top">
+                            <div class="row">
+                                <div class="col-lg-5 pl-0">
+                                    <div class="footer-logo-wrapper">
+                                        <img class="logo" src="assets/densmi logo.webp" alt="">
+                                        <div class="enter-email pt-4">
+                                            <input type="text" placeholder="Enter a E-mail">
+                                            <button>Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 pl-0">
+                                    <div class="row footer-contact">
+                                        <div class="col-sm-3 pl-0">
+                                            <span>Phone</span>
+                                            <p>(208) 555-0112</p>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <span>Address</span>
+                                            <p>6391 Elgin St. Celina, Delaware 10299</p>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <span>E-Mail</span>
+                                            <p>densmi@example.com</p>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <span>Fax</span>
+                                            <p>+1-907-555-1234</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom pt-4">
+                            <div class="row">
+                                <div class="col-lg-4 pl-0 pr-0">
+                                    <div class="working-footer-head">
+                                        <h6>Working Hours</h6>
+                                        <ul class="p-0 mt-4">
+                                            <li class="d-flex justify-content-between">Mon-Fri <span>8AM-9PM</span></li>
+                                            <div class="divider"></div>
+                                            <li class="d-flex justify-content-between">Mon-Fri <span>8AM-9PM</span></li>
+                                        </ul>
+                                    </div>
+                                   <p class="copyright-text">© Promo Theme 2023, All Rights Reserved</p>
+                                </div>
+                                <div class="col-lg-8 pl-5">
+                                    <div class="row">
+                                        <div class="col-sm-3 pl-4">
+                                            <div class="footer-links">
+                                                <p>About</p>
+                                                <ul class="p-0 pt-3">
+                                                    <li><a href="#">About us</a></li>
+                                                    <li><a href="#">blog</a></li>
+                                                    <li><a href="#">careers</a></li>
+                                                    <li><a href="#">jobs</a></li>
+                                                    <li><a href="#">team</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 pl-4">
+                                            <div class="footer-links">
+                                                <p>Pages</p>
+                                                <ul class="p-0 pt-3">
+                                                    <li><a href="#">product</a></li>
+                                                    <li><a href="#">portfolio</a></li>
+                                                    <li><a href="#">pricing</a></li>
+                                                    <li><a href="#">collections</a></li>
+                                                    <li><a href="#">doctor's profile</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 pl-4">
+                                            <div class="footer-links">
+                                                <p>Support</p>
+                                                <ul class="p-0 pt-3">
+                                                    <li><a href="#">contact us</a></li>
+                                                    <li><a href="#">online chat</a></li>
+                                                    <li><a href="#">social media</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 pl-4">
+                                            <div class="footer-links">
+                                                <p>Contact</p>
+                                                <ul class="p-0 pt-3">
+                                                    <li><a href="#">careers</a></li>
+                                                    <li><a href="#">social media</a></li>
+                                                    <li><a href="#">whatsapp</a></li>
+                                                    <li><a href="#">instagram</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    </body>
+    </html>
